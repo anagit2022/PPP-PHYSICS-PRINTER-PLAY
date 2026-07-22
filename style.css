@@ -112,14 +112,17 @@ body {
 .template-art {
     background: #fafafa;
     border-radius: 10px;
-    padding: 10px;
+    overflow: hidden;
     margin-bottom: 24px;
+    aspect-ratio: 4 / 3;
 }
 
-.template-art svg {
+.template-art svg,
+.template-art img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .template-play-btn {
