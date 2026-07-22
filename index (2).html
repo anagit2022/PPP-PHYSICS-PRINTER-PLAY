@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Physics Playground</title>
+</head>
+<body>
+
+    <header class="topbar">
+        <span class="topbar-title">Physics playground</span>
+        <nav class="topnav">
+            <a href="index.html" class="nav-pill nav-pill-outline">Start here</a>
+            <a href="playground.html" class="nav-pill nav-pill-filled">Playground</a>
+        </nav>
+    </header>
+
+    <h1 class="page-heading">Explore physics simulations through making your own props</h1>
+
+    <div class="template-grid">
+
+        <!-- RESONANCE -->
+        <div class="template-card">
+            <h2>Resonance</h2>
+            <p class="template-desc">Discover the resonance of everyday objects</p>
+            <div class="template-art">
+                <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="20" y="130" width="160" height="18" rx="3" fill="#111"/>
+                    <rect x="35" y="20" width="14" height="115" fill="#111"/>
+                    <rect x="151" y="20" width="14" height="115" fill="#111"/>
+                    <rect x="35" y="20" width="130" height="14" fill="#111"/>
+                    <circle cx="80" cy="95" r="16" fill="#7fc4ea" stroke="#3ba9e0" stroke-width="2"/>
+                    <circle cx="70" cy="82" r="10" fill="#7fc4ea" stroke="#3ba9e0" stroke-width="2"/>
+                    <circle cx="120" cy="90" r="16" fill="#7fc4ea" stroke="#3ba9e0" stroke-width="2"/>
+                    <circle cx="112" cy="76" r="10" fill="#7fc4ea" stroke="#3ba9e0" stroke-width="2"/>
+                    <line x1="80" y1="95" x2="80" y2="130" stroke="#555" stroke-width="3"/>
+                    <line x1="120" y1="90" x2="120" y2="130" stroke="#555" stroke-width="3"/>
+                    <path d="M55 100 q10 -15 0 -30" fill="none" stroke="#bbb" stroke-width="2" stroke-dasharray="3 3"/>
+                </svg>
+            </div>
+            <a href="playground.html?template=resonance" class="template-play-btn">Play experiment</a>
+        </div>
+
+        <!-- PULLEY SYSTEM -->
+        <div class="template-card">
+            <h2>Pulley system</h2>
+            <p class="template-desc">Explore mechanical advantage with a lifting pulley</p>
+            <div class="template-art">
+                <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="20" y="20" width="160" height="10" fill="#111"/>
+                    <line x1="100" y1="30" x2="100" y2="55" stroke="#111" stroke-width="4"/>
+                    <circle cx="100" cy="70" r="18" fill="none" stroke="#3ba9e0" stroke-width="4"/>
+                    <line x1="88" y1="70" x2="45" y2="140" stroke="#555" stroke-width="2"/>
+                    <line x1="112" y1="70" x2="112" y2="150" stroke="#555" stroke-width="2"/>
+                    <rect x="25" y="140" width="40" height="30" fill="#7fc4ea" stroke="#3ba9e0" stroke-width="2"/>
+                    <rect x="97" y="150" width="30" height="20" fill="#ddd" stroke="#999" stroke-width="2"/>
+                </svg>
+            </div>
+            <a href="playground.html?template=pulley" class="template-play-btn">Play experiment</a>
+        </div>
+
+        <!-- CREATE YOUR OWN -->
+        <div class="template-card template-card-blank">
+            <h2>Create your own experiment</h2>
+            <a href="playground.html" class="template-blank-plus" title="Start a blank experiment">+</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
